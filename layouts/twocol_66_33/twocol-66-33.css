@@ -1,26 +1,30 @@
 /*
  * @file
- * Provides the layout styles for layout_threecol_25_50_25.
+ * Provides the layout styles for layout_threecol_66_33.
  */
- .layout--twocol-66-33 {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.layout--twocol-66-33 > .layout__region,
-.layout--twocol-66-33 > .layout__region--second {
-  flex: 0 1 100%;
-}
+/**
+ * Layout TwoCol
+ */
 
-.layout--twocol-66-33 > .layout__region--second {
-  width: 100%;
-}
 
-@media screen and (min-width: 1200px) {
-  .layout--twocol-66-33 > .layout__region--first {
-    flex: 0 1 66.666%;
+.layout--twocol-66-33 {
+  display: grid;
+  gap: 1.5rem;
+}
+@media screen and (min-width: 850px) {
+  .layout--twocol-66-33 {
+    grid-template-columns: repeat(2, calc(50% - 0.75rem));
   }
-  .layout--twocol-66-33 > .layout__region--second {
-    flex: 0 1 33.333%;
+}
+@media screen and (min-width: 1000px) {
+  .layout--twocol-66-33 {
+    grid-template-columns: calc(66.666% - 1.5rem) 33.333%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .layout--twocol-66-33 {
+    gap: 2rem;
+    grid-template-columns: calc(66.666% - 2rem) 33.333%;
   }
 }

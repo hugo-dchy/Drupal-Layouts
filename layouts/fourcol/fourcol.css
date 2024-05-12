@@ -4,21 +4,25 @@
  */
 
 .layout--fourcol {
-  padding: 0 1.5rem;
-}
-.grid-row .layout--fourcol {
-  padding: 0;
+  display: grid;
+  gap: 1.5rem;
 }
 @media screen and (min-width: 500px) {
   .layout--fourcol {
-    display: grid;
-    grid-template-columns: repeat(2, calc(50% - 0.9125rem));
-    gap: 1.875rem;
+    grid-template-columns: repeat(2, calc(50% - 0.75rem));
   }
 }
 @media screen and (min-width: 1000px) {
   .layout--fourcol {
-    grid-template-columns: repeat(4, calc(25% - 0.9125rem));
+    grid-template-columns: repeat(4, calc(25% - 1.125rem));
+  }
+}
+@media screen and (min-width: 1300px) {
+  .layout--fourcol {
+    gap: 2rem;
+  }
+  .layout--fourcol {
+    grid-template-columns: repeat(4, calc(25% - 1.5rem));
   }
 }
 

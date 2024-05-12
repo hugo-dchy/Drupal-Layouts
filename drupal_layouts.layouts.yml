@@ -1,10 +1,10 @@
 # Layout Two Cols
 
-drupal_layout_twocol:
+drupal_layouts_twocol:
   label: 'Deux Colonnes - Custom'
   path: layouts/twocol_custom
   template: layout--twocol-custom
-  library: drupal_layout/twocol_custom
+  library: drupal_layoutss/twocol_custom
   category: 'Custom Layout'
   default_region: first
   icon_map:
@@ -19,7 +19,7 @@ layout_twocol_25_75:
   label: 'Deux Colonnes 25/75'
   path: layouts/twocol_25_75
   template: layout--twocol-25-75
-  library: drupal_layout/twocol_25_75
+  library: drupal_layouts/twocol_25_75
   category: 'Custom Layout'
   default_region: first
   icon_map:
@@ -34,7 +34,7 @@ layout_twocol_75_25:
   label: 'Deux Colonnes 75/25'
   path: layouts/twocol_75_25
   template: layout--twocol-75-25
-  library: drupal_layout/twocol_75_25
+  library: drupal_layouts/twocol_75_25
   category: 'Custom Layout'
   default_region: first
   icon_map:
@@ -49,7 +49,7 @@ layout_twocol_33_66:
   label: 'Deux Colonnes 33/66'
   path: layouts/twocol_33_66
   template: layout--twocol-33-66
-  library: drupal_layout/twocol_33_66
+  library: drupal_layouts/twocol_33_66
   category: 'Custom Layout'
   default_region: first
   icon_map:
@@ -64,7 +64,7 @@ layout_twocol_66_33:
   label: 'Deux Colonnes 66/33'
   path: layouts/twocol_66_33
   template: layout--twocol-66-33
-  library: drupal_layout/twocol_66_33
+  library: drupal_layouts/twocol_66_33
   category: 'Custom Layout'
   default_region: first
   icon_map:
@@ -82,7 +82,7 @@ layout_threecol:
   label: 'Trois Colonnes'
   path: layouts/threecol
   template: layout--threecol
-  library: drupal_layout/threecol
+  library: drupal_layouts/threecol
   category: 'Custom Layout'
   default_region: first
   icon_map:
@@ -99,7 +99,7 @@ layout_threecol_25_25_50:
   label: 'Trois Colonnes 25/25/50'
   path: layouts/threecol_25_25_50
   template: layout--threecol-25-25-50
-  library: drupal_layout/threecol_25_25_50
+  library: drupal_layouts/threecol_25_25_50
   category: 'Custom Layout'
   default_region: first
   icon_map:
@@ -116,7 +116,7 @@ layout_threecol_50_25_25:
   label: 'Trois Colonnes 50/25/25'
   path: layouts/threecol_50_25_25
   template: layout--threecol-50-25-25
-  library: drupal_layout/threecol_50_25_25
+  library: drupal_layouts/threecol_50_25_25
   category: 'Custom Layout'
   default_region: first
   icon_map:
@@ -133,7 +133,7 @@ layout_threecol_25_50_25_custom:
   label: 'Trois Colonnes 25/50/25'
   path: layouts/threecol_25_50_25_custom
   template: layout--threecol-25-50-25-custom
-  library: drupal_layout/threecol_25_50_25_custom
+  library: drupal_layouts/threecol_25_50_25_custom
   category: 'Custom Layout'
   default_region: first
   icon_map:
@@ -154,7 +154,7 @@ layout_fourcol:
   label: 'Quatre Colonnes'
   path: layouts/fourcol
   template: layout--custom-fourcol
-  library: drupal_layout/fourcol
+  library: drupal_layouts/fourcol
   category: 'Custom Layout'
   default_region: first
   icon_map:
@@ -177,7 +177,7 @@ layout_fivecol:
   label: 'Cinq Colonnes'
   path: layouts/fivecol
   template: layout--fivecol
-  library: drupal_layout/fivecol
+  library: drupal_layouts/fivecol
   category: 'Custom Layout'
   default_region: first
   icon_map:

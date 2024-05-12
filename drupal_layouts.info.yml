@@ -1,6 +1,6 @@
 name: 'Layout Custom'
 type: module
-description: "Customs layout for layout builder"
+description: "Custom layouts for layout builder"
 core: 8.x
 core_version_requirement: ^8 || ^9 || ^10
 package: 'Layout'

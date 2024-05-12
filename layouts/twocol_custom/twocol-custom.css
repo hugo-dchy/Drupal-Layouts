@@ -1,0 +1,18 @@
+/*
+ * @file
+ * Provides the layout styles for layout_twocol.
+ */
+
+.layout--twocol {
+  padding: 0 1.5rem;
+}
+.grid-row .layout--twocol {
+  padding: 0;
+}
+@media screen and (min-width: 900px) {
+  .layout--twocol {
+    display: grid;
+    grid-template-columns: repeat(2, calc(50% - 0.9125rem));
+    gap: 1.875rem;
+  }
+}

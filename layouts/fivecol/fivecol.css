@@ -1,0 +1,24 @@
+/*
+ * @file
+ * Provides the layout styles for layout_fivecol.
+ */
+
+.layout--fivecol {
+  padding: 0 1.5rem;
+}
+.grid-row .layout--fivecol {
+  padding: 0;
+}
+@media screen and (min-width: 500px) {
+  .layout--fivecol {
+    display: grid;
+    grid-template-columns: repeat(2, calc(50% - 0.9125rem));
+    gap: 1.875rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .layout--fivecol {
+    grid-template-columns: repeat(5, calc(20% - 0.9125rem));
+  }
+}
+

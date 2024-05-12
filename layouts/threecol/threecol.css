@@ -1,0 +1,37 @@
+/*
+ * @file
+ * Provides the layout styles for layout_threecol.
+ */
+
+.layout--threecol {
+  padding: 0 1.5rem;
+}
+.grid-row .layout--threecol {
+  padding: 0;
+}
+
+@media screen and (min-width: 640px) {
+  .layout--threecol{
+    display: grid;
+    grid-template-columns: repeat(2, calc(50% - 0.9125rem));
+    gap: 1.875rem;
+    grid-column: span 2;
+  }
+  .layout--threecol .layout__region--third{
+    grid-column: 1 / span 2;
+    width: calc(50% - 0.9125rem);
+    justify-self: center;
+  }
+}
+@media screen and (min-width: 900px) {
+  .layout--threecol{
+    display: grid;
+    grid-template-columns: calc(33.333% - 0.9125rem) calc(33.333% - 1.875rem) calc(33.333% - 0.9125rem);
+    gap: 1.875rem;
+  }
+  .layout--threecol .layout__region--third{
+    grid-column: initial;
+    width: initial;
+    justify-self: initial;
+  }
+}
